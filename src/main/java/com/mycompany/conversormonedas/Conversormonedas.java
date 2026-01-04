@@ -75,7 +75,7 @@ public class Conversormonedas {
                         System.out.println("Ingrese la cantidad a convertir( Ej: 20.50 o 20.5)");
                         Double quanty = sc.nextDouble();
                         result = apiService.getCoinExchange("USD", "BRL", quanty);
-                        System.out.println("Su cambio de " + quanty + " USD a BRL es equivalente a: " + result + " MXN");
+                        System.out.println("Su cambio de " + quanty + " USD a BRL es equivalente a: " + result + " BRL");
                     } catch (InputMismatchException e) {
                         System.err.println("Error: Ingrese un valor numérico válido (use punto decimal si es necesario).");
                         sc.nextLine();
