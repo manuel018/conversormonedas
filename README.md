@@ -3,6 +3,7 @@
 Este proyecto es una aplicación de consola en **Java** que permite convertir entre diferentes monedas utilizando un servicio externo (`ApiService`).  
 El programa ofrece un menú interactivo para realizar conversiones rápidas desde **USD** a monedas específicas, o seleccionar libremente las monedas de origen y destino.
 
+ > 📌 **Este proyecto forma parte de un desafío (challenge) de Alura Latam**, dentro de su programa de formación en desarrollo backend con Java. 
 ---
 
 ## 🚀 Características
